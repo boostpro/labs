@@ -51,7 +51,8 @@ inline std::size_t count_vertices( graph const& g )
 inline void delete_edge( graph& g, vertex_id u, vertex_id v )
 {
     assert( u < count_vertices( g ) );
-    neighbors_t::iterator e = g[u].end(), p = std::find( g[u].begin(), e, v );
+    neighbors_t::iterator e = g[u].end();
+    neighbors_t::iterator p = std::find( g[u].begin(), e, v );
     if ( p != e )
         g[u].erase( p );
 }
