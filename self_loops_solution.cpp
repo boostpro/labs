@@ -95,6 +95,7 @@ int main( int argc, char *argv[] )
     graph g;
 
     read_adjacency_list( g );
+    delete_self_loops( g );
     write_adjacency_matrix( g );
 }
 
