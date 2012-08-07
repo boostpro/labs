@@ -157,9 +157,10 @@ bool bfs(graph const& g, vertex_id u, vertex_id v)
         {
             visited[next] = true;
             
-            std::transform( g[next].begin(), g[next].end(),
-                            std::back_inserter( q ),
-                            project1st()
+            std::transform( 
+                g[next].begin(), g[next].end(),
+                std::back_inserter( q ),
+                project1st()
                 );
         }
     }
@@ -183,7 +184,7 @@ void read_adjacency_list( std::istream& input, graph& g )
     }
 }
 
-// Write a g to output in adjacency matrix form.
+// Write g to output in adjacency matrix form.
 void write_adjacency_matrix( std::ostream& output, graph const& g )
 {
     for ( vertex_id u = 0; u < count_vertices( g ); ++u )
