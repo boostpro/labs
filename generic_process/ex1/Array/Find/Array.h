@@ -11,6 +11,8 @@
 #include <cstdlib>
 #include <climits>
 
+// If the value is found in the array, return a pointer to it, else
+// return in + size
 inline int* Find(int* in, std::size_t size, int value)
 {
     // TODO implement me
