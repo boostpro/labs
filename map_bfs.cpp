@@ -16,6 +16,8 @@ common neighbors of vertices 2 and 0:
 vertex 0 is reachable from vertex 2
 
  */
+#define _GLIBCXX_DEBUG
+#define _SECURE_SCL 1
 #include <vector>
 #include <string>
 #include <sstream>

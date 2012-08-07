@@ -20,6 +20,7 @@ erase returns new iterator
 
  */
 #define _GLIBCXX_DEBUG
+#define _SECURE_SCL 1
 
 #include <vector>
 #include <string>

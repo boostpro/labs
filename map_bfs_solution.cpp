@@ -17,6 +17,7 @@ vertex 0 is reachable from vertex 2
 
  */
 #define _GLIBCXX_DEBUG
+#define _SECURE_SCL 1
 #include <istream>
 #include <ostream>
 #include <vector>

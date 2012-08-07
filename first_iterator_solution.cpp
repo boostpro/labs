@@ -17,6 +17,7 @@
 
  */
 #define _GLIBCXX_DEBUG
+#define _SECURE_SCL 1
 #define _GLIBCXX_FULLY_DYNAMIC_STRING
 #include <istream>
 #include <ostream>
