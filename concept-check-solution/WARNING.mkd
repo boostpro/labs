@@ -1,0 +1,4 @@
+# DANGER WILL ROBINSON
+
+These files don't necessarily work as they are.  They have to be
+validated before they can be considered a solution.

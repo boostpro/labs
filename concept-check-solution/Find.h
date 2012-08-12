@@ -13,7 +13,7 @@
 template<typename Iterator>
 BOOST_CONCEPT_REQUIRES(
     ((ForwardIterator<Iterator>))
-/*    ((Convertible<Value, typename ForwardIterator<Iterator>::value_type>)) */
+    ((Convertible<Value, typename ForwardIterator<Iterator>::value_type>))
     ((EqualityComparable<typename ForwardIterator<Iterator>::value_type>)),
 
     // Archetype revealed need for Value copyability
